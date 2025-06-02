@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LUGX Landing page</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        .footer {
+            background-image: url(./Image/banner-bg.jpeg);
+        }
+    </style>
 </head>
 
 <body class="bg-white">
@@ -185,7 +190,7 @@
             <div class="rounded-xl  bg-white pb-6 w-42">
                 <img src="Image/top-game-03.jpeg" alt="" class="rounded-2xl">
 
-                <div >
+                <div>
                     <div class="text-center">
                         <p class="text-gray-700">Adventure</p>
                         <p class="font-semibold  hover:bg-blue-500">Assasin Creed</p>
@@ -197,7 +202,7 @@
             <div class="rounded-xl bg-white  pb-6 w-42">
                 <img src="Image/top-game-04.jpeg" alt="" class="rounded-2xl">
 
-                <div >
+                <div>
                     <div class="text-center">
                         <p class="text-gray-700">Adventure</p>
                         <p class="font-semibold  hover:bg-blue-500">Assasin Creed</p>
@@ -209,7 +214,7 @@
             <div class="rounded-xl  bg-white pb-6 w-42">
                 <img src="Image/top-game-05.jpeg" alt="" class="rounded-2xl">
 
-                <div >
+                <div>
                     <div class="text-center">
                         <p class="text-gray-700">Adventure</p>
                         <p class="font-semibold  hover:bg-blue-500">Assasin Creed</p>
@@ -238,37 +243,49 @@
             <p class="text-red-500 font-bold">CATEGORIES</p>
             <p class="font-bold text-3xl mt-4">Top Categories</p>
         </div>
-            <div class="flex  mt-20 gap-5  px-20  mx-30 justify-center scale-100">
-                <div class="  bg-blue-600 rounded-4xl pt-6 ">
-                    <p class="text-white font-bold text-center  mb-4">Action</p>
-                    <img src="Image/categories-01.jpeg" alt="" class="rounded-2xl w-full "> 
-                </div>
-                <div class=" bg-blue-600 rounded-4xl pt-6">
-                    <p class="text-white font-bold text-center  mb-4">Action</p>
-                    <img src="Image/categories-05.jpeg" alt="" class="rounded-2xl w-full "> 
-                </div>
-                 <div class=" bg-blue-600 rounded-4xl pt-6">
-                    <p class="text-white font-bold text-center  mb-4">Action</p>
-                    <img src="Image/categories-03.jpeg" alt="" class="rounded-2xl w-full "> 
-                </div>
-                 <div class=" bg-blue-600 rounded-4xl pt-6">
-                    <p class="text-white font-bold text-center  mb-4">Action</p>
-                    <img src="Image/categories-04.jpeg" alt="" class="rounded-2xl w-full "> 
-                </div>
-                 <div class="bg-blue-600 rounded-4xl pt-6">
-                    <p class="text-white font-bold text-center  mb-4">Action</p>
-                    <img src="Image/categories-05.jpeg" alt="" class="rounded-2xl w-full "> 
-                </div>
-               
-  
+        <div class="flex  mt-20 gap-5  px-20  mx-30 justify-center scale-100">
+            <div class="  bg-blue-600 rounded-4xl pt-6 ">
+                <p class="text-white font-bold text-center  mb-4">Action</p>
+                <img src="Image/categories-01.jpeg" alt="" class="rounded-2xl w-full ">
+            </div>
+            <div class=" bg-blue-600 rounded-4xl pt-6">
+                <p class="text-white font-bold text-center  mb-4">Action</p>
+                <img src="Image/categories-05.jpeg" alt="" class="rounded-2xl w-full ">
+            </div>
+            <div class=" bg-blue-600 rounded-4xl pt-6">
+                <p class="text-white font-bold text-center  mb-4">Action</p>
+                <img src="Image/categories-03.jpeg" alt="" class="rounded-2xl w-full ">
+            </div>
+            <div class=" bg-blue-600 rounded-4xl pt-6">
+                <p class="text-white font-bold text-center  mb-4">Action</p>
+                <img src="Image/categories-04.jpeg" alt="" class="rounded-2xl w-full ">
+            </div>
+            <div class="bg-blue-600 rounded-4xl pt-6">
+                <p class="text-white font-bold text-center  mb-4">Action</p>
+                <img src="Image/categories-05.jpeg" alt="" class="rounded-2xl w-full ">
             </div>
         </div>
     </div>
-    
-
-
-
-
+    <div class="flex mt-40 justify-center">
+        <div class="absolute bg-gray-100 rounded-4xl px-20 w-120 py-20 mr-190 mt-20">
+            <p class="text-red-400 font-bold mb-8">OUR SHOP</p>
+            <P class="font-bold text-4xl mb-8">Go Pre-Order Buy & Get Best <span class="text-blue-600">Prices </span>For You!
+            </P>
+            <p class="text-gray-500 font-semibold mb-8">Lorem ipsum dolor consectetur adipiscing, sed do eiusmod tempor
+                incididunt.</p>
+            <button class="bg-red-400 px-4 py-2 rounded-full text-white font-bold text-sm">SHOP NOW</button>
+        </div>
+        <img src="Image/cta-bg.jpeg" alt="warriors" class="rounded-4xl">
+        <div class="absolute bg-gray-100 rounded-4xl px-20 py-20 h-90 w-120 ml-160 mt-50">
+            <p class="text-red-400 font-bold text-sm mb-5 relative -top-8">NEWSLETTER</p>
+            <P class="text-4xl font-bold mb-8 relative -top-8">Get Up To $100 Off Just Buy <span class="text-blue-600">Subscribe</span> Newsletter!</P>
+            <div class="flex relative -top-10 ">
+            <input type="text" placeholder="Your email..." class="bg-white rounded-4xl px-4 py-2">
+            <button class="bg-red-400 rounded-4xl px-4 py-2 text-sm -ml-20 text-white font-bold"> SUBSCRIBE NOW</button>
+            </div>
+        </div>
+    </div>
+   <footer class="footer mt-50 bg-red-500 rounded-t-[180px] py-20 text-center text-white font-semibold text-lg"><p>Copyright © 2048 LUGX Gaming Company. All rights reserved.    Design: TemplateMo</p> </footer>
 </body>
 
 </html>
