@@ -13,13 +13,13 @@
 </head>
 
 <body class="bg-white">
-    <div class="w-full h-220 rounded-b-[180px] justify-center bg-cover"
+    <div class="w-full rounded-b-[180px] justify-center bg-cover h-300"
         style="background-image: url('./Image/banner-bg.jpeg') ">
 
-        <div class="bg-blue-600   gap-24 h-25 flex justify-center items-center  top-0 z-50 mx-0 rounded-b-4xl">
+        <div class="bg-blue-600   gap-24 h-25 flex flex-wrap justify-center items-center  top-0 z-50 mx-0 rounded-b-4xl">
             <img src="Image/logo.png" alt="logo" class="">
             <nav>
-                <ul class="flex  gap-15 ">
+                <ul class="hidden lg:flex lg:gap-15">
                     <li><a href="#" class=" hover:bg-blue-300 px-4 py-2 rounded-full  text-white">Home</a></li>
                     <li><a href="#" class=" hover:bg-blue-300 px-4 py-2 rounded-full  text-white">Our shop</a></li>
                     <li><a href="#" class=" hover:bg-blue-300 px-4 py-2 rounded-full  text-white">Product
@@ -28,10 +28,11 @@
                     </li>
                     <li><a href="#" class=" bg-red-600 px-4 py-2 rounded-full text-white">SING IN</a></li>
                 </ul>
+                <img src="" alt="" class="lg:hidden ">
             </nav>
         </div>
-        <div class="flex w-auto mx-auto justify-center">
-            <div class="text-white w-100 my-40 text-spacing:4px ">
+        <div class="flex flex-wrap w-auto mx-auto justify-center">
+            <div class="text-white w-92 lg:w-100 my-40 text-spacing:4px ">
                 <div>
                     <h3 class="font-semibold mb-8">WELCOME TO LUGX</h3>
                     <h1 class="text-5xl font-bold mb-8">BEST GAMING SITE EVER!</h1>
@@ -48,56 +49,57 @@
                     <button class="bg-red-400 text-white px-4 rounded-full  w-40 -ml-10 ">SEARCH NOW</button>
                 </div>
             </div>
-            <div class="ml-60 mt-40">
+            <div class="lg:ml-60 lg:mt-40 -mt-32">
                 <button
                     class="px-4 py-2 bg-blue-600 text-white font-bold absolute rounded-full text-2xl ml-60 mt-8">$22</button>
-                <img src="Image/banner-image.jpeg" class="rounded-4xl w-90 h-110" alt="banner-image">
+                <img src="Image/banner-image.jpeg" class="rounded-4xl w-90 lg:h-110 h-80" alt="banner-image">
                 <button
                     class="-mt-10 rounded-full bg-red-400 rounded-full p-6 -ml-4 text-white font-bold text-2xl">-40%</button>
             </div>
         </div>
 
     </div>
-    <div class="flex gap-5 justify-center ">
-        <div class="bg-white h-24 w-64 rounded-4xl py-20 shadow-2xl mb-25 -mt-18 ">
+    <div class="flex flex-wrap lg:gap-5 justify-center">
+        <div class="flex flex-col bg-white lg:w-64 px-24 rounded-4xl lg:pt-20 py-10 shadow-2xl mb-25 -mt-18 ">
             <img src="Image/featured-01.png" alt="feature1"
-                class="ml-24 rounded-full bg-blue-600 p-4 hover:bg-red-500 mb-20 -mt-10">
-            <p class="pl-20 font-bold -mt-18">FREE STORAGE</p>
+                class="mx-auto -mb-12  rounded-full bg-blue-600 p-4 hover:bg-red-500 mb-20 lg:-mt-10 ">
+            <p class="font-bold py-2 -mt-18">FREE STORAGE</p>
         </div>
-        <div class="bg-white h-24 w-64 rounded-4xl py-20 shadow-2xl mb-25 -mt-18 ">
+        <div class="flex flex-col bg-white lg:w-64 px-24 rounded-4xl lg:pt-20 py-10 shadow-2xl mb-25 -mt-18 ">
             <img src="Image/featured-02.png" alt="feature1"
-                class="ml-24 rounded-full bg-blue-600 p-4 hover:bg-red-500 mb-20 -mt-10">
-            <p class="pl-20 font-bold -mt-18">USER MORE</p>
+                class="mx-auto -mb-12  rounded-full bg-blue-600 p-4 hover:bg-red-500 mb-20 lg:-mt-10">
+            <p class="font-bold py-2 -mt-18">USER MORE</p>
         </div>
-        <div class="bg-white h-24 w-64 rounded-4xl py-20 shadow-2xl mb-25 -mt-18 ">
+        <div class="flex flex-col bg-white lg:w-64 px-24 rounded-4xl lg:pt-20 py-10 shadow-2xl mb-25 -mt-18">
             <img src="Image/featured-03.png" alt="feature1"
-                class="ml-24 rounded-full bg-blue-600 p-4 hover:bg-red-500 mb-20 -mt-10">
-            <p class="pl-20 font-bold -mt-18">REPLY READY</p>
+                class="mx-auto -mb-12  rounded-full bg-blue-600 p-4 hover:bg-red-500 mb-20 lg:-mt-10">
+            <p class="font-bold py-2 -mt-18">REPLY READY</p>
         </div>
-        <div class="bg-white h-24 w-64 rounded-4xl py-20 shadow-2xl mb-25 -mt-18 ">
+        <div class="flex flex-col bg-white lg:w-64 px-24 rounded-4xl lg:pt-20 py-10 shadow-2xl mb-25 -mt-18">
             <img src="Image/featured-04.png" alt="feature1"
-                class="ml-24 rounded-full bg-blue-600 p-4 hover:bg-red-500 mb-20 -mt-10">
-            <p class="pl-20 font-bold -mt-18">EASY LAYOUT</p>
+                class="mx-auto -mb-12  rounded-full bg-blue-600 p-4 hover:bg-red-500 mb-20 lg:-mt-10">
+            <p class="font-bold py-2 -mt-18">EASY LAYOUT</p>
         </div>
     </div>
     <div class="mt-4">
-        <div class="text-left flex justify-center gap-160">
-            <div>
+        <div class="text-left flex flex-wrap text-align lg:justify-center gap-15 lg:gap-160">
+            <div class="mb-4">
                 <p class="font-bold text-red-500">TRENDING</p>
-                <h1 class="font-bold text-5xl "> Trending Games</h1>
+                <h1 class="font-bold text-5xl mt-4"> Trending Games</h1>
             </div>
-            <button class="  bg-red-400 px-2 py-1 rounded-full text-white">VIEW ALL</button>
+            <button class=" bg-red-400 rounded-full text-white lg:px-8 px-4 py-2 lg:mb-20 ">VIEW ALL</button>
         </div>
-        <div class="flex justify-center mx-auto gap-10 scale-80">
-            <div class="rounded-2xl  mt-20  bg-gray-300 gap-2 pb-6">
+        <div class="flex flex-wrap justify-center mx-auto lg:gap-10 scale-80 -mt-40 lg:mt-0">
+            <div class=" rounded-2xl  mt-20  bg-gray-300 gap-2 pb-6 w-[800px] md:w-100">
                 <div class="bg-blue-500 rounded-xl px-2 py-1 w-15 absolute ml-50 mt-8 text-white font-bold ">
                     <s>$28</s>
                     <p>$20</p>
                 </div>
-                <img src="Image/trending-01.jpeg" alt="trending" class="rounded-4xl">
+                <img src="Image/trending-01.jpeg" alt="trending" class="rounded-4xl w-full
+                ">
 
-                <div class="flex">
-                    <div class="pl-4">
+                <div class=" flex ">
+                    <div class="pl-4 ">
                         <p class="text-gray-700">Action</p>
                         <p class="font-semibold">Assasin Creed</p>
                     </div>
@@ -105,16 +107,16 @@
                         class="bg-red-500 w-8 h-8 right-4 rounded-full ml-35 mt-4 hover:bg-blue-500 px-2 py-2">
                 </div>
             </div>
-            <div class="rounded-2xl  mt-20  bg-gray-300 gap-2">
+            <div class="rounded-2xl  mt-20  bg-gray-300 gap-2 w-100">
                 <div class="bg-blue-500 rounded-2xl px-2 py-1 w-15 absolute ml-50 mt-8 text-white font-bold ">
                     <p>$44</p>
                 </div>
-                <img src="Image/categories-03.jpeg" alt="trending" class="rounded-2xl w-80 h-55">
+                <img src="Image/categories-03.jpeg" alt="trending" class="rounded-2xl w-80 h-55 w-full">
 
                 <div class="flex">
                     <div class=" pl-4">
                         <p class="text-gray-700">Action</p>
-                        <p class="font-semibold">Assasin Creed</p>
+                        <p class="font-semibold hover:text-blue-500">Assasin Creed</p>
                     </div>
                     <img src="Image/store svg.png" alt="store"
                         class="bg-red-500 w-8 h-8 right-4 rounded-full ml-35 mt-4 hover:bg-blue-500 px-2 py-2">
@@ -130,7 +132,7 @@
                 <div class="flex">
                     <div class="pl-4">
                         <p class="text-gray-700">Action</p>
-                        <p class="font-semibold">Assasin Creed</p>
+                        <p class="font-semibold hover:text-blue-500">Assasin Creed</p>
                     </div>
                     <img src="Image/store svg.png" alt="store"
                         class="bg-red-500 w-8 h-8 right-4 rounded-full ml-35 mt-4 hover:bg-blue-500 px-2 py-2">
@@ -145,7 +147,7 @@
                 <div class="flex">
                     <div class="pl-4">
                         <p class="text-gray-700">Action</p>
-                        <p class="font-semibold">Assasin Creed</p>
+                        <p class="font-semibold hover:text-blue-500">Assasin Creed</p>
                     </div>
                     <img src="Image/store svg.png" alt="store"
                         class="bg-red-500 w-8 h-8 right-4 rounded-full ml-35 mt-4 hover:bg-blue-500 px-2 py-2">
